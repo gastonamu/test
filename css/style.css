@@ -1,0 +1,995 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden !important;
+
+}
+
+/* HEADER */
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1 {
+    width: 500px;
+    border-radius: 50%;
+
+}
+
+.enlaces {
+    height: 3rem;
+    background-color: black;
+    padding-top: 1.5rem;
+    border: 3px solid #5f551e;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid hsl(0, 0%, 0%);
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* grid Nav  */
+
+.column a {
+    display: block;
+    text-decoration: none;
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    height: 3rem;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-auto-flow: column;
+    height: 3%;
+}
+
+.grid-container a {
+    background-color: #000000;
+    border: 3px solid #5f551e;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+
+}
+
+.grid-container a:hover {
+    background-color: #5f551e;
+}
+
+.grid-container a:active {
+    background-color: #d5c569;
+}
+
+/* MAIN */
+.imgMano {
+    width: 99.1vw;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* ATENCION PERSONALIZADA */
+.mensaje {
+    margin-top: 3rem;
+    width: 93%;
+    height: 15rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    transform: translateY(-10rem);
+    border: 3px solid #b09a1f;
+}
+
+
+
+.cajaMensaje1 {
+
+    width: 50%;
+}
+
+.titleMensaje {
+    color: white;
+    font-size: 2rem;
+    width: 29rem;
+}
+
+.textMensaje {
+    color: white;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.botonMensaje {
+    width: 20rem;
+    height: 3rem;
+    background-color: #706524;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.botonMensaje a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+.botonMensaje a:hover {
+    font-weight: bold;
+}
+
+
+
+/* SERVICIOS */
+
+.nuestroServicio {
+    width: 100%;
+}
+
+.boxServicios {
+    width: 90vw;
+    margin-top: 2rem;
+}
+
+.titleServicios h1 {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: #706525
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    width: 50rem;
+    height: 28rem;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+}
+
+.box h3 {
+    font-size: 2.5rem;
+    color: #c3af3c;
+    margin-bottom: 5rem;
+    margin-left: 0;
+
+}
+
+.box h4 {
+    color: white;
+    padding: 2rem;
+
+}
+
+.card :hover {
+    background-color: #5f5620;
+    ;
+
+}
+
+.box :hover {
+    color: white;
+
+}
+
+/* SECCION SERVICIOS */
+.mainServicios {
+    margin-right: 100px;
+
+}
+
+.titleSeccionServicios {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    margin-left: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #706525
+}
+
+/* FORMULARIO */
+.contFormulario {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.TituloFormulario {
+    text-align: center;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: #706526;
+}
+
+.formulario {
+    width: 70%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 2rem;
+    margin-bottom: 8rem;
+
+}
+
+
+.nombre {
+    height: 5rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+
+}
+
+.apellido {
+    height: 5rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.correoEletronico {
+    height: 5rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+
+}
+
+.Mensaje {
+    height: 15rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.enviar {
+    height: 6rem;
+    margin-top: 1rem;
+    background-color: #706524c7;
+    border: 1px solid #000000;
+    color: white;
+    font-size: 1.3rem;
+}
+
+
+/* SECCION CONTACTO */
+
+.tituloSeccionFormulario {
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: #706526;
+
+}
+
+.seccionContacto {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+    margin-top: 50px;
+    margin-right: 40px;
+    font-size: 2rem;
+
+}
+
+
+
+
+
+/* SOBRE NOSOTROS */
+
+.tituloNosotros {
+    text-align: center;
+    margin-left: 10rem;
+    margin-bottom: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: #706526
+}
+
+.imgEscribania {
+    width: 100%;
+    border-radius: 1%;
+    margin-left: 20%;
+}
+
+
+
+.parrafoNosotros {
+    font-size: 1rem;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3rem;
+    padding: 3rem;
+    font-size: 1.5rem;
+    margin-right: 13rem;
+    width: 34rem;
+}
+
+
+.contenidoNosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3rem;
+    margin-bottom: 6rem;
+
+}
+
+/* TESTIMONIOS INDEX */
+
+.contenedorTestimonios {
+
+    width: 100%;
+    height: 30rem;
+    background-color: #000000;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+    justify-content: center;
+
+}
+
+.textoTestimonios {
+    display: block;
+    justify-content: center;
+    align-content: center;
+}
+
+.testimonios {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.tituloTestimonios {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: #84772d;
+    /* margin-top: 24px; */
+}
+
+.testimonio {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    width: 600px;
+    height: 240px;
+    display: flex;
+    margin-right: 3rem;
+    border-radius: 10px;
+    background-color: #fffafa;
+    box-shadow: 3px 2px 2px rgb(36, 36, 36), 1px 1.2px 1.2px rgb(146, 118, 61), 3px 1.2px 1.2px rgb(215, 193, 67), 1px 2px 2px rgb(121, 115, 113);
+}
+
+/* SECCION TESTIMONIOS */
+
+.contenedorSeccionTestimonios {
+    width: 100();
+    height: 30rem;
+    background-color: #a59b4418;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+    justify-content: center;
+}
+
+.seccionTestimonios {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: #706526
+}
+
+
+
+
+.tituloTestimonio {
+    color: #b3a23f;
+    background-color: #000000;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 46px;
+    margin-bottom: 100px;
+    margin-left: 465px;
+    border-radius: 10px 10px 10px 10px;
+    width: 40%;
+}
+
+.testCarrusel {
+    width: 100%;
+    height: 70vh;
+    background-image: url("https://i.pinimg.com/564x/c6/48/de/c648de4b26dd2c0b8f21f1f372a7c580.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    margin-top: 128px;
+    margin-bottom: 130px;
+
+
+}
+
+
+
+.carousel {
+    width: 1000px;
+    margin-left: calc(50vw - 500px);
+}
+
+.cont {
+
+    width: 1000px;
+    height: 500px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: calc(50vw - 100px);
+}
+
+.carousel-inner {
+    width: 700px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 25px;
+}
+
+.d-block {
+    height: 331px;
+    width: 551px;
+    margin-left: 31px;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 3rem;
+    height: 25rem;
+    background-color: rgb(13, 13, 13);
+    display: flex;
+    width: 100%;
+
+}
+
+.imgFooter img {
+    height: 18rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    width: 18rem;
+    margin-left: 0rem;
+}
+
+.imgFooter {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoFooter {
+    padding: 1rem;
+    width: 30%;
+}
+
+.contenidoFooter {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    color: white;
+    margin-left: 0;
+}
+
+.direccion {
+    padding-bottom: 1rem;
+}
+
+.telefono {
+    padding-bottom: 1rem;
+}
+
+.correo {
+    padding-bottom: 1rem;
+}
+
+.infoFooter2 {
+    padding: 3rem;
+}
+
+.contenidoFooter2 {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    color: white;
+    margin-right: 4rem;
+    margin-left: 5rem;
+}
+
+.inicio {
+    padding-bottom: 1rem;
+    color: white;
+
+}
+
+.servicios {
+    padding-bottom: 1rem;
+}
+
+.nosotros {
+    padding-bottom: 1rem;
+}
+
+.testimonios {
+    padding-bottom: 1rem;
+}
+
+.contacto {
+    padding-bottom: 1rem;
+}
+
+.titleFooter {
+    font-size: 1rem;
+    color: white;
+    margin-left: 0;
+    padding-top: 10%;
+
+}
+
+.titleFooter2 {
+    font-size: 1rem;
+    color: white;
+    margin-left: 5rem;
+}
+
+.mainTesmonios {
+    min-height: 50rem;
+}
+
+.mainServicios {
+    min-height: 50rem;
+}
+
+.mainNosotros {
+    min-height: 50rem;
+}
+
+.mainContacto {
+    min-height: 50rem;
+}
+
+/* SECCION TESTIMONIOS FOOTER */
+.foter2 {
+    margin-top: 0;
+    overflow-y: hidden;
+}
+
+.contenidoFooter22 {
+    margin-top: 1rem;
+}
+
+.infoFooter22 {
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 767px) {
+
+
+    .img1 {
+        width: 300px;
+        border-radius: 50%;
+    }
+
+
+    .links a {
+        color: white;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+
+
+    /* Main */
+    .imgMano {
+        width: 100vw;
+    }
+
+    .mensaje {
+        margin-top: 3rem;
+        width: 93%;
+        height: 10rem;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        transform: translateY(-6rem);
+        border: 1px solid #b09a1f;
+
+
+    }
+
+    .cajaMensaje1 {
+        width: 100%;
+    }
+
+
+    .titleMensaje {
+        color: white;
+        font-size: 1.5rem;
+        width: 35rem;
+        margin-left: 10%;
+    }
+
+    .textMensaje {
+        color: white;
+        font-size: 1rem;
+        height: 41px;
+        text-align: center;
+        margin: 10px 5px 0 5px;
+    }
+
+    .botonMensaje {
+        width: 13rem;
+        height: 2.5rem;
+        background-color: #706524;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .botonMensaje a {
+        text-align: center;
+        text-decoration: none;
+        color: white;
+
+    }
+
+    /* FORMULARIO */
+    .formulario {
+        width: 70%;
+        height: 25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+        margin-left: 4rem;
+        font-size: 2rem;
+        margin-bottom: 8rem;
+    }
+
+
+
+    /* SOBRE NOSOTROS */
+    .imgEscribania {
+        width: 100%;
+        border-radius: 1%;
+        margin: 0;
+    }
+
+    .tituloNosotros {
+        text-align: center;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3rem;
+        color: #706526
+    }
+
+
+
+
+    .parrafoNosotros {
+        font-size: 1rem;
+        color: #000000;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 1px;
+        padding: 1rem;
+        font-size: 1.5rem;
+        margin-top: 32px;
+        width: 100%;
+        height: 36rem;
+    }
+
+
+    .contenidoNosotros {
+        display: block;
+        /* flex-direction: column; */
+        padding: rem;
+        margin-bottom: 6rem;
+
+    }
+
+
+    /* TESTIMONIOS */
+
+    .contenedorSeccionTestimonios {
+        width: 100();
+        height: 400rem;
+        background-color: #b59a5118;
+        margin-bottom: 10rem;
+        margin-top: 5rem;
+        /* justify-content: center; */
+    }
+
+    .seccionTestimonios {
+        display: block;
+        /* justify-content: center;
+        align-content: center;
+        text-align: center; */
+        margin-bottom: 5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3rem;
+        color: #706526
+    }
+
+    .textoTestimonios {
+        display: block;
+
+    }
+
+    .testimonios {
+        display: block;
+        margin-left: 10px;
+
+    }
+
+    .tituloTestimonios {
+        display: block;
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3rem;
+        color: #9a8b38
+    }
+
+    .imgtestimonio {
+        width: 100%;
+    }
+
+    .testimonio {
+        margin-left: 3rem;
+        margin-right: 3rem;
+        width: 80vw;
+        height: 100%;
+        display: block;
+        margin-bottom: 20px;
+
+        margin-right: 3rem;
+        border-radius: 10px;
+        background-color: #fffafa;
+        box-shadow: 3px 2px 2px rgb(36, 36, 36), 1px 1.2px 1.2px rgb(146, 118, 61), 3px 1.2px 1.2px rgb(215, 193, 67), 1px 2px 2px rgb(121, 115, 113);
+    }
+
+    .contenedorTestimonios {
+        height: 100%;
+    }
+
+
+    /* FOOTER */
+    footer {
+        margin-top: 3rem;
+        height: 100%;
+        background-color: rgb(13, 13, 13);
+        display: block;
+        width: 100%;
+
+    }
+
+    .imgFooter img {
+        height: 12rem;
+        margin-top: 10%;
+        margin-bottom: 1rem;
+        border-radius: 50%;
+        width: 12rem;
+        margin-left: calc(50vw - 12rem);
+
+
+    }
+
+    .imgFooter {
+
+        margin-left: calc(50vw - 150px);
+        align-items: center;
+        justify-content: center;
+    }
+
+    .infoFooter {
+        padding: 3rem;
+        width: 100%;
+    }
+
+    .infoFooter2 {
+        padding: 3rem;
+        width: 100%;
+
+    }
+
+    .contenidoFooter {
+        margin-top: 1.5rem;
+        font-size: 1.2rem;
+        color: white;
+        margin-left: 0rem;
+        width: 100%;
+
+    }
+
+    .direccion {
+        padding-bottom: 1rem;
+        width: 100%;
+    }
+
+    .telefono {
+        padding-bottom: 1rem;
+        width: 100%;
+    }
+
+    .correo {
+        padding-bottom: 1rem;
+    }
+
+    .infoFooter2 {
+        padding: 3rem;
+    }
+
+    .contenidoFooter2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5rem;
+        font-size: 1.2rem;
+        color: white;
+        margin-right: 200px;
+    }
+
+    .inicio {
+        padding-bottom: 1rem;
+        color: white;
+
+    }
+
+    .servicios {
+        padding-bottom: 1rem;
+    }
+
+    .nosotros {
+        padding-bottom: 1rem;
+    }
+
+    .testimonios {
+        padding-bottom: 1rem;
+    }
+
+    .contacto {
+        padding-bottom: 1rem;
+    }
+
+    .titleFooter {
+        font-size: 1rem;
+        color: white;
+        margin-left: 0rem;
+        display: none;
+
+    }
+
+    .titleFooter2 {
+        font-size: 1rem;
+        color: white;
+        margin-left: 9.5rem;
+        margin-top: 0%;
+    }
+
+    /* SERVICIOS */
+    .card {
+        display: block;
+        width: 100%;
+    }
+
+    .boxServicios {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .box {
+        width: 100%;
+        height: 28rem;
+        background-color: rgb(31, 31, 31);
+
+        padding-left: 1px;
+        padding-right: 5px;
+
+        margin-left: 1px;
+        margin-bottom: 10%;
+
+    }
+
+    .box h3 {
+        margin-left: 1%;
+        font-size: 2.5rem;
+        color: #c3af3c;
+        margin-bottom: 0rem;
+        margin-top: -1rem;
+        text-align: center;
+
+    }
+
+    .box h4 {
+        margin-left: 1%;
+
+
+        margin-bottom: 0rem;
+
+        margin-right: 1px;
+
+
+
+    }
+
+    .nuestroServicio {
+        width: 100%;
+    }
+
+}
